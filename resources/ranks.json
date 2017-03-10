@@ -1,0 +1,212 @@
+[
+  {
+    "humanRank" : 25,
+    "humanName" : "Angry Chicken",
+    "stars" : 2,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : false
+  },
+  {
+    "humanRank" : 24,
+    "humanName" : "Leper Gnome",
+    "stars" : 2,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : false
+  },
+  {
+    "humanRank" : 23,
+    "humanName" : "Argent Squire",
+    "stars" : 2,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : false
+  },
+  {
+    "humanRank" : 22,
+    "humanName" : "Murloc Raider",
+    "stars" : 2,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : false
+  },
+  {
+    "humanRank" : 21,
+    "humanName" : "Southsea Deckhand",
+    "stars" : 2,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : false
+  },
+  {
+    "humanRank" : 20,
+    "humanName" : "Shieldbearer",
+    "stars" : 3,
+    "isMilestone" : true,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 19,
+    "humanName" : "Novice Engineer",
+    "stars" : 3,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 18,
+    "humanName" : "Sorcerer's Apprentice",
+    "stars" : 3,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 17,
+    "humanName" : "Tauren Warrior",
+    "stars" : 3,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 16,
+    "humanName" : "Questing Adventurer",
+    "stars" : 3,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 15,
+    "humanName" : "Silvermoon Guardian",
+    "stars" : 4,
+    "isMilestone" : true,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 14,
+    "humanName" : "Raid Leader",
+    "stars" : 4,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 13,
+    "humanName" : "Dread Corsair",
+    "stars" : 4,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 12,
+    "humanName" : "Warsong Commander",
+    "stars" : 4,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 11,
+    "humanName" : "Big Game Hunter",
+    "stars" : 4,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 10,
+    "humanName" : "Ogre Magi",
+    "stars" : 5,
+    "isMilestone" : true,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 9,
+    "humanName" : "Silver Hand Knight",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 8,
+    "humanName" : "Frostwolf Warlord",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 7,
+    "humanName" : "Sunwalker",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 6,
+    "humanName" : "Ancient of War",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : true,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 5,
+    "humanName" : "Sea Giant",
+    "stars" : 5,
+    "isMilestone" : true,
+    "allowsStreak" : false,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 4,
+    "humanName" : "Mountain Giant",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : false,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 3,
+    "humanName" : "MoltenGiant",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : false,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 2,
+    "humanName" : "The Black Knight",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : false,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 1,
+    "humanName" : "Innkeeper",
+    "stars" : 5,
+    "isMilestone" : false,
+    "allowsStreak" : false,
+    "allowsDrop" : true
+  },
+  {
+    "humanRank" : 0,
+    "humanName" : "Legend",
+    "stars" : 1,
+    "isMilestone" : true,
+    "allowsStreak" : false,
+    "allowsDrop" : false
+  }
+
+
+]
