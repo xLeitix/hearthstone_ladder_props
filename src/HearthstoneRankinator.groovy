@@ -14,8 +14,9 @@ import groovy.json.JsonSlurper
 class HearthstoneRankinator {
 
     final def RANKCFG = 'resources/ranks.json'
-
     final def STREAK_TH = 3
+
+    static def USE_MILESTONES = true
 
     def ranks
 
@@ -42,7 +43,7 @@ class HearthstoneRankinator {
         } else {
 
             // we drop a star unless we are at a milestone or at a rank where we don't lose stars at all
-            if(!(!prevRank.allowsDrop || atMilestone(prevRank, previousStars))) {
+            if(!(!prevRank.allowsDrop || (USE_MILESTONES && atMilestone(prevRank, previousStars)))) {
                 newStars--
             }
 
