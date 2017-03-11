@@ -1,4 +1,4 @@
-This is the code associated to the blog post [Monte-Carlo Simulating The Hearthstone Ladder]()
+This is the code associated to the blog post [Monte-Carlo Simulating The Hearthstone Ladder](https://medium.com/@xLeitix/monte-carlo-simulating-the-hearthstone-ladder-994ee504a1ac)
 on Medium. This repository contains all the Groovy code I wrote, the raw data I analyzed
 for the blog post, and an R script I used for blogging.
 
