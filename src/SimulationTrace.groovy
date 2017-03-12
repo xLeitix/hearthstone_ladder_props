@@ -1,9 +1,3 @@
-/**
- * This is a separate class that represents a (partial or full) simulation run.
- *
- * Will mostly be used to be able to print a log of a simulation (to CSV or to the console).
- *
- */
 class SimulationTrace {
 
     def simulationResults = []
@@ -25,8 +19,14 @@ class SimulationTrace {
         super.toString()
     }
 
-    void toCsv(def outfileName) {
-        // TODO
+    String toCsv() {
+        def builder = new StringBuilder()
+        def uuid = UUID.randomUUID()
+        simulationResults.each { round ->
+            builder << "${uuid.toString()};"
+            builder << round.toCsvString()
+        }
+        return builder.toString()
     }
 
     private class Round {
@@ -39,6 +39,10 @@ class SimulationTrace {
         @Override
         public String toString() {
             "$roundnr: $outcome : $starsBefore -> $starsAfter (${rankinator.toHumanReadable(starsAfter)})"
+        }
+
+        def toCsvString() {
+            "$roundnr;$outcome;$starsBefore;$starsAfter;$streak"
         }
 
     }

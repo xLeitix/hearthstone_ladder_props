@@ -1,7 +1,10 @@
 STARTING_RANK = 'Shieldbearer'
 GOAL_RANK = 'Sea Giant'
 WIN_RATES = [0.45, 0.48, 0.5, 0.52, 0.55, 0.57, 0.6, 0.62, 0.65]
-GAME_DURATIONS = [5, 10, 15, 20]
+// GAME_DURATIONS = [5, 10, 15, 20] // first draft
+// real durations based on http://www.vicioussyndicate.com/game-duration-mean-streets-gadgetzan-meta/
+// Pirate Warrior, Midrange Shaman, Dragon Priest, Reno Mage
+GAME_DURATIONS = [5.5, 7, 8.25, 10.5]
 REPS = 1000
 OUTPUT_FILE = 'simulationresults.csv'
 DETAILED_FILE = 'simulationresultsDetails.csv'
